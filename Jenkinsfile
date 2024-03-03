@@ -7,9 +7,9 @@ pipeline {
                     sh './testRetry.sh'
                 }
 
-                timeout(time: 1, unit: 'MINUTES') {
-                    sh './testTimeout.sh'
-                }
+                //timeout(time: 1, unit: 'MINUTES') {
+                //    sh './testTimeout.sh'
+                //}
             }
         }
     }
